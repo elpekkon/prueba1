@@ -1,0 +1,805 @@
+[10Mar2025 19:55:45.314] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[10Mar2025 19:55:45.319] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[10Mar2025 19:55:46.227] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[10Mar2025 19:55:46.347] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/prueba1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[10Mar2025 19:55:46.778] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prueba1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[10Mar2025 19:55:46.793] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prueba1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[10Mar2025 19:55:46.795] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prueba1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[10Mar2025 19:55:46.797] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/prueba1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[10Mar2025 19:55:47.034] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[10Mar2025 19:55:49.309] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Mar2025 19:55:49.518] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[10Mar2025 19:55:49.698] [main/WARN] [mixin/]: Reference map 'enderitemod-forge-refmap.json' for enderitemod.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Mar2025 19:55:49.721] [main/INFO] [Puzzles Lib/]: Loading 47 mods:
+	- aquaculture 2.5.1
+	- architectury 9.1.12
+	- artifacts 9.5.13
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterendisland 1.20-Forge-2.0.6
+	- betterfortresses 1.20-Forge-2.0.6
+	- betterjungletemples 1.20-Forge-2.0.5
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- boss_music_mod 1.0.0
+	- cloth_config 11.1.118
+	- clumps 12.0.0.3
+	- comforts 6.4.0+1.20.1
+	- cosmeticarmorreworked 1.20.1-v1a
+	- creativecore 2.12.23
+	- curios 5.9.1+1.20.1
+	- customnpcs 1.20.1.20240824
+	- easy_npc 5.9.0
+	- easyanvils 8.0.1
+	- easymagic 8.0.1
+	- ecologics 2.2.0
+	- embeddium 0.3.31+mc1.20.1
+	- embeddiumplus 1.2.13
+	- enderitemod 1.5.0
+	- endrem 5.2.3-R-1.20.1
+	- expandability 9.0.4
+	- explorerscompass 1.20.1-1.3.3-forge
+	- farmersdelight 1.20.1-1.2.4
+	- fastbench 8.0.4
+	- fastfurnace 8.0.2
+	- forge 47.3.7
+	- geckolib 4.4.2
+	- minecraft 1.20.1
+	- mixinextras 0.3.6
+	- moonlight 1.20-2.13.0
+	- mr_dungeons_andtaverns 1-v2.1.4
+	- placebo 8.6.1
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.13
+	- rubidium 0.7.1
+	- securitycraft 1.9.11
+	- sophisticatedcore 0.6.33.711
+	- spectrelib 0.13.15+1.20.1
+	- yungsapi 1.20-Forge-4.0.5
+	- zeta 1.0-17
+[10Mar2025 19:55:49.759] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 91 options available, 0 override(s) found
+[10Mar2025 19:55:50.687] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[10Mar2025 19:55:50.693] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[10Mar2025 19:55:50.693] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
+[10Mar2025 19:55:50.730] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[10Mar2025 19:55:50.752] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[10Mar2025 19:55:51.793] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[10Mar2025 19:55:53.958] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[10Mar2025 19:55:53.960] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[10Mar2025 19:55:55.522] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[10Mar2025 19:55:55.522] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[10Mar2025 19:55:59.231] [modloading-worker-0/INFO] [Easy NPC/]: Initializing Easy NPC (Forge) ...
+[10Mar2025 19:55:59.232] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Debug Manager ...
+[10Mar2025 19:55:59.236] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Detected debug log level for Easy NPC with ALL!
+[10Mar2025 19:55:59.238] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Adjusting log level for Easy NPC from ALL to INFO, for performance reasons!
+[10Mar2025 19:55:59.239] [modloading-worker-0/INFO] [Easy NPC/]: [Debug Manager] Add new logger config for Easy NPC with level INFO ...
+[10Mar2025 19:55:59.240] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Constants ...
+[10Mar2025 19:55:59.241] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Configuration ...
+[10Mar2025 19:55:59.246] [modloading-worker-0/INFO] [Easy NPC/]: [Config] Updated configuration path to /workspaces/prueba1/servidor_minecraft/config/easy_npc
+[10Mar2025 19:55:59.248] [modloading-worker-0/INFO] [Easy NPC/]: [Config] Registering common configuration ...
+[10Mar2025 19:55:59.255] [modloading-worker-0/INFO] [Easy NPC/]: [Config] Render Entity Type Support Configuration
+
+ Please note that this configuration file only includes confirmed entity types.
+ If an entity type is not listed here, it doesn't mean it's automatically supported or unsupported!
+ is up to date: {minecraft:giant=true, dannys_expansion:mundane_slime=false, botania:pool_minecart=false, botania:ender_air=false, minecraft:end_crystal=false, simple_mobs:rumble=false, minecraft:experience_bottle=false, minecraft:glow_squid=true, minecraft:trader_llama=true, orcz:decaystrikecustom=false, simple_mobs:staff_usage=false, minecraft:horse=true, the_bumblezone:purple_spike_entity=false, minecraft:llama=true, minecraft:husk=true, minecraft:cave_spider=true, minecraft:enderman=true, minecraft:dolphin=true, frostiful:freezing_wind=false, minecraft:shulker_bullet=false, simple_mobs:projecttest=false, minecraft:donkey=true, minecraft:area_effect_cloud=false, minecraft:ghast=false, frostiful:packed_snowball=false, twigs:pebble=false, handcrafted:fancy_painting=false, moretotems:summoned_zombie=false, minecraft:piglin_brute=true, minecraft:creeper=true, minecraft:glow_item_frame=false, minecraft:bee=true, botania:mana_storm=false, minecraft:illusioner=true, minecraft:player=false, minecraft:wither_skull=false, minecraft:mooshroom=true, smallships:galley=false, create:stationary_contraption=false, minecraft:eye_of_ender=false, minecraft:villager=true, ad_astra:tier_1_rocket=false, botania:magic_landmine=false, minecraft:stray=true, smallships:cog=false, minecraft:falling_block=false, minecraft:drowned=true, minecraft:axolotl=true, botania:doppleganger=false, botania:flame_ring=false, botania:ender_air_bottle=false, minecraft:tnt=false, ae2:tiny_tnt_primed=false, botania:magic_missile=false, create:crafting_blueprint=false, create:contraption=false, minecraft:strider=true, smallships:brigg=false, minecraft:guardian=true, minecraft:parrot=true, minecraft:arrow=false, lootr:lootr_minecart=false, the_bumblezone:pollen_puff=false, minecraft:chest_minecart=false, minecraft:wither=true, minecraft:ender_pearl=false, create:super_glue=false, minecraft:wandering_trader=true, handcrafted:seat=false, simple_mobs:dragon_smoke=false, minecraft:wither_skeleton=true, botania:thorn_chakram=false, minecraft:iron_golem=true, botania:pixie=false, dummmmmmy:target_dummy=false, minecraft:elder_guardian=true, graveyard:skull=false, minecraft:mule=true, the_bumblezone:bee_stinger=false, the_bumblezone:thrown_stinger_spear=false, minecraft:armor_stand=false, aquamirae:pillagers_patrol=false, minecraft:vindicator=true, botania:mana_burst=false, minecraft:evoker=true, minecraft:slime=false, minecraft:leash_knot=false, botania:babylon_weapon=false, minecraft:pufferfish=true, terraform:boat=false, swampier_swamps:swamp_gas=false, minecraft:experience_orb=false, ad_astra:tier_3_rocket=false, minecraft:fox=true, botania:thrown_item=false, the_bumblezone:cosmic_crystal_entity=false, graveyard:ghouling=false, botania:player_mover=false, minecraft:silverfish=true, minecraft:endermite=true, minecraft:firework_rocket=false, minecraft:chicken=true, minecraft:zombie=true, the_bumblezone:sentry_watcher=false, minecraft:spawner_minecart=false, botania:spark=false, botania:falling_star=false, minecraft:hoglin=true, minecraft:boat=false, minecraft:trident=false, friendsandfoes:player_illusion=false, minecraft:polar_bear=true, minecraft:phantom=false, ad_astra:tier_4_rocket=false, minecraft:zombified_piglin=true, minecraft:witch=true, ad_astra:tier_2_rocket=false, minecraft:pig=true, minecraft:turtle=true, moretotems:summoned_bee=false, minecraft:sheep=true, minecraft:ender_dragon=false, minecraft:goat=true, minecraft:item_frame=false, create:carriage_contraption=false, minecraft:vex=true, minecraft:minecart=false, minecraft:item=false, minecraft:dragon_fireball=false, minecraft:cod=true, minecraft:skeleton=true, ad_astra:space_painting=false, create:seat=false, simple_mobs:staff_interact=false, minecraft:ravager=true, minecraft:squid=true, minecraft:skeleton_horse=true, minecraft:cow=true, minecraft:potion=false, ad_astra:lander=false, minecraft:salmon=true, minecraft:snow_golem=true, minecraft:shulker=true, friendsandfoes:ice_chunk=false, minecraft:hopper_minecart=false, the_bumblezone:honey_crystal_shard=false, simple_mobs:lightning_spear=false, minecraft:rabbit=true, minecraft:painting=false, minecraft:pillager=true, the_bumblezone:electric_ring_entity=false, minecraft:zoglin=true, minecraft:lightning_bolt=false, frostiful:frost_spell=false, minecraft:fishing_bobber=false, minecraft:tnt_minecart=false, simple_mobs:ground_spike=false, minecraft:command_block_minecart=false, minecraft:bat=false, the_bumblezone:dirt_pellet=false, minecraft:fireball=false, minecraft:llama_spit=false, minecraft:furnace_minecart=false, minecraft:evoker_fangs=false, minecraft:piglin=true, minecraft:snowball=false, minecraft:spectral_arrow=false, orcz:wither_strikeringcustom=false, simple_mobs:elemental_chain=false, minecraft:blaze=true, ad_astra:ice_spit=false, techreborn:nuke=false, minecraft:egg=false, minecraft:zombie_horse=true, minecraft:magma_cube=false, minecraft:small_fireball=false, frostiful:thrown_icicle=false, minecraft:spider=true, ad_astra:tier_1_rover=false, minecraft:marker=false, majruszsdifficulty:cursed_armor=false, minecraft:text_display=false, farmersdelight:rotten_tomato=false, minecraft:cat=true, armourers_workshop:mannequin=false, create:gantry_contraption=false, minecraft:tropical_fish=true, botania:corporea_spark=false, minecraft:ocelot=true, minecraft:wolf=true, minecraft:panda=true, minecraft:zombie_villager=true}
+[10Mar2025 19:55:59.264] [modloading-worker-0/INFO] [Easy NPC/]: [Config] Registering server configuration ...
+[10Mar2025 19:55:59.264] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Common Data Files ...
+[10Mar2025 19:55:59.268] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Common data folders ...
+[10Mar2025 19:55:59.269] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Entity Data Serializers ...
+[10Mar2025 19:55:59.373] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer ActionEventSet with id 28
+[10Mar2025 19:55:59.374] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer CustomAttributes with id 29
+[10Mar2025 19:55:59.374] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer DialogDataSet with id 30
+[10Mar2025 19:55:59.374] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer DisplayAttributeSet with id 31
+[10Mar2025 19:55:59.374] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer EntityAttributes with id 32
+[10Mar2025 19:55:59.374] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer MerchantOffers with id 33
+[10Mar2025 19:55:59.375] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer ModelPose with id 34
+[10Mar2025 19:55:59.375] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer ObjectiveDataSet with id 35
+[10Mar2025 19:55:59.375] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer CustomPosition with id 36
+[10Mar2025 19:55:59.375] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer Profession with id 37
+[10Mar2025 19:55:59.375] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer RenderDataSet with id 38
+[10Mar2025 19:55:59.375] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer CustomRotation with id 39
+[10Mar2025 19:55:59.375] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer CustomScale with id 40
+[10Mar2025 19:55:59.376] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer SkinDataEntry with id 41
+[10Mar2025 19:55:59.376] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer SoundDataSet with id 42
+[10Mar2025 19:55:59.376] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer HashSet:UUID with id 43
+[10Mar2025 19:55:59.376] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer HashSet:String with id 44
+[10Mar2025 19:55:59.376] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer TradingDataSet with id 45
+[10Mar2025 19:55:59.376] [modloading-worker-0/INFO] [Easy NPC/]: Registered entity data serializer UUID with id 46
+[10Mar2025 19:55:59.376] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Compatibility Handler ...
+[10Mar2025 19:55:59.377] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Compat Handler ...
+[10Mar2025 19:55:59.378] [modloading-worker-0/INFO] [Easy NPC/]: [Compat Manager] Epic Fight mod with id 'epicfight' loaded: false
+[10Mar2025 19:55:59.378] [modloading-worker-0/INFO] [Easy NPC/]: [Compat Manager] Cobblemon mod with id 'cobblemon' loaded: false
+[10Mar2025 19:55:59.378] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Command Argument Types ...
+[10Mar2025 19:55:59.384] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Entity Types ...
+[10Mar2025 19:55:59.392] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks ...
+[10Mar2025 19:55:59.394] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks Entity Types ...
+[10Mar2025 19:55:59.400] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Items ...
+[10Mar2025 19:55:59.404] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[10Mar2025 19:55:59.420] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Types ...
+[10Mar2025 19:55:59.436] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Handler ...
+[10Mar2025 19:55:59.443] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler ...
+[10Mar2025 19:55:59.447] [modloading-worker-0/INFO] [Easy NPC/]: Registering server network handler for Server -> Client messages.
+[10Mar2025 19:55:59.448] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Client Network Message Handler ...
+[10Mar2025 19:55:59.563] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[10Mar2025 19:55:59.904] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[10Mar2025 19:55:59.907] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[10Mar2025 19:55:59.910] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[10Mar2025 19:55:59.923] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[10Mar2025 19:55:59.931] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[10Mar2025 19:55:59.932] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[10Mar2025 19:55:59.937] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[10Mar2025 19:55:59.938] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[10Mar2025 19:56:00.112] [modloading-worker-0/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[10Mar2025 19:56:00.193] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[10Mar2025 19:56:00.217] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[10Mar2025 19:56:00.220] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[10Mar2025 19:56:00.346] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[10Mar2025 19:56:00.493] [main/INFO] [zeta-internal/]: Dispatching ZRegister to 3 listeners
+[10Mar2025 19:56:00.499] [main/INFO] [zeta-internal/]: Dispatching ZRegister$Post to 1 listener
+[10Mar2025 19:56:01.054] [main/INFO] [Moonlight/]: Initialized block sets in 10ms
+[10Mar2025 19:56:01.551] [main/INFO] [Easy NPC/]: - Registering Synched Attack Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.552] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[10Mar2025 19:56:01.552] [main/INFO] [Easy NPC/]: - Registering Synched Attribute Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.552] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[10Mar2025 19:56:01.552] [main/INFO] [Easy NPC/]: - Registering Synched Custom Attribute Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.552] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.CustomAttributeData
+[10Mar2025 19:56:01.553] [main/INFO] [Easy NPC/]: - Registering Synched Display Attribute Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.553] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.DisplayAttributeData
+[10Mar2025 19:56:01.553] [main/INFO] [Easy NPC/]: - Registering Synched Navigation Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.553] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.NavigationData
+[10Mar2025 19:56:01.553] [main/INFO] [Easy NPC/]: - Registering Synched Owner Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.553] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.OwnerData
+[10Mar2025 19:56:01.554] [main/INFO] [Easy NPC/]: - Registering Synched Profession Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.554] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ProfessionData
+[10Mar2025 19:56:01.554] [main/INFO] [Easy NPC/]: - Registering Synched Render Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.554] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.RenderData
+[10Mar2025 19:56:01.554] [main/INFO] [Easy NPC/]: - Registering Synched Skin Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.554] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[10Mar2025 19:56:01.554] [main/INFO] [Easy NPC/]: - Registering Synched Sound Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.555] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SoundData
+[10Mar2025 19:56:01.555] [main/INFO] [Easy NPC/]: - Registering Synched Trading Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.555] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[10Mar2025 19:56:01.555] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[10Mar2025 19:56:01.555] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[10Mar2025 19:56:01.555] [main/INFO] [Easy NPC/]: - Registering Synched Variant Data for EasyNPCBaseEntity.
+[10Mar2025 19:56:01.556] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.VariantData
+[10Mar2025 19:56:01.556] [main/INFO] [Easy NPC/]: - Registering Synched Model Data for EasyNPCBaseModelEntity.
+[10Mar2025 19:56:01.556] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[10Mar2025 19:56:01.556] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[10Mar2025 19:56:01.557] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[10Mar2025 19:56:01.557] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[10Mar2025 19:56:01.557] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[10Mar2025 19:56:01.557] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[10Mar2025 19:56:01.557] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[10Mar2025 19:56:01.557] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[10Mar2025 19:56:01.558] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[10Mar2025 19:56:01.558] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[10Mar2025 19:56:01.558] [main/INFO] [Easy NPC/]: - Registering Synched Model Position Data for EasyNPCBaseModelEntity.
+[10Mar2025 19:56:01.558] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[10Mar2025 19:56:01.558] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[10Mar2025 19:56:01.559] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[10Mar2025 19:56:01.559] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[10Mar2025 19:56:01.559] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[10Mar2025 19:56:01.559] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[10Mar2025 19:56:01.560] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[10Mar2025 19:56:01.560] [main/INFO] [Easy NPC/]: - Registering Synched Model Rotation Data for EasyNPCBaseModelEntity.
+[10Mar2025 19:56:01.560] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[10Mar2025 19:56:01.560] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[10Mar2025 19:56:01.560] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[10Mar2025 19:56:01.560] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[10Mar2025 19:56:01.561] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[10Mar2025 19:56:01.561] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[10Mar2025 19:56:01.561] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[10Mar2025 19:56:01.561] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[10Mar2025 19:56:01.561] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[10Mar2025 19:56:01.562] [main/INFO] [Easy NPC/]: - Registering Synched Model Visibility Data for EasyNPCBaseModelEntity.
+[10Mar2025 19:56:01.562] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.562] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.562] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.562] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.562] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.563] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.563] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.563] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.563] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.563] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.563] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[10Mar2025 19:56:01.563] [main/INFO] [Easy NPC/]: - Registering Synched Scale Data for EasyNPCBaseModelEntity.
+[10Mar2025 19:56:01.564] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[10Mar2025 19:56:01.564] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[10Mar2025 19:56:01.564] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[10Mar2025 19:56:01.629] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/prueba1/servidor_minecraft/config/farmersdelight-common.toml is not correct. Correcting
+[10Mar2025 19:56:01.630] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.630] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.enableVanillaCropCrates was corrected from null to its default, true. 
+[10Mar2025 19:56:01.631] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.farmersBuyFDCrops was corrected from null to its default, true. 
+[10Mar2025 19:56:01.632] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.wanderingTraderSellsFDItems was corrected from null to its default, true. 
+[10Mar2025 19:56:01.632] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.richSoilBoostChance was corrected from null to its default, 0.2. 
+[10Mar2025 19:56:01.633] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.cuttingBoardFortuneBonus was corrected from null to its default, 0.1. 
+[10Mar2025 19:56:01.634] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.enableRopeReeling was corrected from null to its default, true. 
+[10Mar2025 19:56:01.634] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key settings.canvasSignDarkBackgroundList was corrected from null to its default, [gray, purple, blue, brown, green, red, black]. 
+[10Mar2025 19:56:01.636] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farming was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.636] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farming.defaultTomatoVineRope was corrected from null to its default, farmersdelight:rope. 
+[10Mar2025 19:56:01.636] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key farming.enableTomatoVineClimbingTaggedRopes was corrected from null to its default, true. 
+[10Mar2025 19:56:01.638] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipe_book was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.638] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipe_book.enableRecipeBookCookingPot was corrected from null to its default, true. 
+[10Mar2025 19:56:01.639] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.639] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.vanillaSoupExtraEffects was corrected from null to its default, true. 
+[10Mar2025 19:56:01.639] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.rabbitStewJumpBoost was corrected from null to its default, true. 
+[10Mar2025 19:56:01.640] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.dispenserUsesToolsOnCuttingBoard was corrected from null to its default, true. 
+[10Mar2025 19:56:01.640] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.stack_size was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.640] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.stack_size.enableStackableSoupItems was corrected from null to its default, true. 
+[10Mar2025 19:56:01.640] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overrides.stack_size.soupItemList was corrected from null to its default, [minecraft:mushroom_stew, minecraft:beetroot_soup, minecraft:rabbit_stew]. 
+[10Mar2025 19:56:01.641] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.641] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.generateFDChestLoot was corrected from null to its default, true. 
+[10Mar2025 19:56:01.642] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.genVillageCompostHeaps was corrected from null to its default, true. 
+[10Mar2025 19:56:01.642] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_cabbages was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.642] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_cabbages.chance was corrected from null to its default, 30. 
+[10Mar2025 19:56:01.642] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_beetroots was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.642] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_beetroots.chance was corrected from null to its default, 30. 
+[10Mar2025 19:56:01.643] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_potatoes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.643] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_potatoes.chance was corrected from null to its default, 100. 
+[10Mar2025 19:56:01.643] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_carrots was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.643] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_carrots.chance was corrected from null to its default, 120. 
+[10Mar2025 19:56:01.644] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_onions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.644] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_onions.chance was corrected from null to its default, 120. 
+[10Mar2025 19:56:01.644] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_tomatoes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.644] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_tomatoes.chance was corrected from null to its default, 100. 
+[10Mar2025 19:56:01.644] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_rice was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.644] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.wild_rice.chance was corrected from null to its default, 20. 
+[10Mar2025 19:56:01.645] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.brown_mushroom_colonies was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.645] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.brown_mushroom_colonies.genBrownMushroomColony was corrected from null to its default, true. 
+[10Mar2025 19:56:01.645] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.brown_mushroom_colonies.chance was corrected from null to its default, 15. 
+[10Mar2025 19:56:01.645] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.red_mushroom_colonies was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.645] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.red_mushroom_colonies.genRedMushroomColony was corrected from null to its default, true. 
+[10Mar2025 19:56:01.646] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.red_mushroom_colonies.chance was corrected from null to its default, 15. 
+[10Mar2025 19:56:01.660] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/prueba1/servidor_minecraft/config/explorerscompass-common.toml is not correct. Correcting
+[10Mar2025 19:56:01.661] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[10Mar2025 19:56:01.661] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General.allowTeleport was corrected from null to its default, true. 
+[10Mar2025 19:56:01.662] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General.displayCoordinates was corrected from null to its default, true. 
+[10Mar2025 19:56:01.662] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General.maxRadius was corrected from null to its default, 10000. 
+[10Mar2025 19:56:01.662] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General.structureBlacklist was corrected from null to its default, []. 
+[10Mar2025 19:56:01.663] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General.maxSamples was corrected from null to its default, 100000. 
+[10Mar2025 19:56:01.665] [main/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[10Mar2025 19:56:01.667] [Thread-1/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[10Mar2025 19:56:01.671] [Thread-1/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[10Mar2025 19:56:01.675] [main/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 2 listeners
+[10Mar2025 19:56:01.677] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[10Mar2025 19:56:01.678] [Thread-1/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 2 listeners
+[10Mar2025 19:56:01.679] [Thread-1/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 2 listeners
+[10Mar2025 19:56:01.796] [modloading-worker-0/INFO] [zeta-internal/]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 2 listeners
+[10Mar2025 19:56:02.057] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[10Mar2025 19:56:02.208] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler for net.minecraftforge.network.simple.SimpleChannel@7cf3544 with version 23
+[10Mar2025 19:56:02.209] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler ...
+[10Mar2025 19:56:02.209] [main/INFO] [Easy NPC/]: Registering network messages for BOTH side ...
+[10Mar2025 19:56:02.211] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering client network message ExportClientPresetMessage with easy_npc:preset_export_client (0)
+[10Mar2025 19:56:02.212] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering client network message OpenMenuCallbackMessage with easy_npc:open_menu_callback_message (1)
+[10Mar2025 19:56:02.213] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering client network message SyncDataMessage with easy_npc:sync_data (2)
+[10Mar2025 19:56:02.214] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message AddOrUpdateObjectiveMessage with easy_npc:add_objective (3)
+[10Mar2025 19:56:02.215] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeActionEventMessage with easy_npc:change_action_event (4)
+[10Mar2025 19:56:02.217] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeAdvancedTradingMessage with easy_npc:change_advanced_trading (5)
+[10Mar2025 19:56:02.217] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeBasicTradingMessage with easy_npc:change_basic_trading (6)
+[10Mar2025 19:56:02.219] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeCombatAttributeMessage with easy_npc:change_combat_attribute (7)
+[10Mar2025 19:56:02.221] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeDisplayAttributeMessage with easy_npc:change_display_attribute (8)
+[10Mar2025 19:56:02.222] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeEntityAttributeMessage with easy_npc:change_entity_attribute (9)
+[10Mar2025 19:56:02.223] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeEntityBaseAttributeMessage with easy_npc:change_entity_base_attribute (10)
+[10Mar2025 19:56:02.224] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeEnvironmentalAttributeMessage with easy_npc:change_environmental_attribute (11)
+[10Mar2025 19:56:02.225] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeInteractionAttributeMessage with easy_npc:change_interaction_attribute (12)
+[10Mar2025 19:56:02.226] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeModelEquipmentVisibilityMessage with easy_npc:change_model_equipment_visibility (13)
+[10Mar2025 19:56:02.227] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeModelLockRotationMessage with easy_npc:change_model_lock_rotation (14)
+[10Mar2025 19:56:02.227] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeModelPoseMessage with easy_npc:change_model_pose (15)
+[10Mar2025 19:56:02.229] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeModelPositionMessage with easy_npc:change_model_position (16)
+[10Mar2025 19:56:02.230] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeModelRotationMessage with easy_npc:change_model_rotation (17)
+[10Mar2025 19:56:02.231] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeModelVisibilityMessage with easy_npc:change_model_visibility (18)
+[10Mar2025 19:56:02.232] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeMovementAttributeMessage with easy_npc:change_movement_attribute (19)
+[10Mar2025 19:56:02.233] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeNameMessage with easy_npc:change_name (20)
+[10Mar2025 19:56:02.234] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangePoseMessage with easy_npc:change_pose (21)
+[10Mar2025 19:56:02.234] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangePositionMessage with easy_npc:change_position (22)
+[10Mar2025 19:56:02.235] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeProfessionMessage with easy_npc:change_profession (23)
+[10Mar2025 19:56:02.238] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeRendererMessage with easy_npc:change_renderer (24)
+[10Mar2025 19:56:02.240] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeScaleMessage with easy_npc:change_scale (25)
+[10Mar2025 19:56:02.241] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeSkinMessage with easy_npc:change_skin (26)
+[10Mar2025 19:56:02.242] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeSpawnerSettingMessage with easy_npc:change_spawner_settings (27)
+[10Mar2025 19:56:02.243] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ChangeTradingTypeMessage with easy_npc:change_trading_type (28)
+[10Mar2025 19:56:02.244] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ExecuteActionEventMessage with easy_npc:trigger_action_event (29)
+[10Mar2025 19:56:02.245] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ExecuteDialogButtonActionMessage with easy_npc:dialog_button_action (30)
+[10Mar2025 19:56:02.246] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ExportPresetMessage with easy_npc:export_preset (31)
+[10Mar2025 19:56:02.247] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ExportWorldPresetMessage with easy_npc:export_world_preset (32)
+[10Mar2025 19:56:02.251] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message ImportPresetMessage with easy_npc:import_preset (33)
+[10Mar2025 19:56:02.253] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message OpenActionDataEditorMessage with easy_npc:open_action_data_editor (34)
+[10Mar2025 19:56:02.254] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message OpenActionDataEntryEditorMessage with easy_npc:open_action_data_entry_editor (35)
+[10Mar2025 19:56:02.255] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message OpenConfigurationMessage with easy_npc:open_configuration_screen (36)
+[10Mar2025 19:56:02.256] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message OpenDialogButtonEditorMessage with easy_npc:open_dialog_button_editor (37)
+[10Mar2025 19:56:02.257] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message OpenDialogEditorMessage with easy_npc:open_dialog_editor (38)
+[10Mar2025 19:56:02.258] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message OpenMenuMessage with easy_npc:open_menu_message (39)
+[10Mar2025 19:56:02.260] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message OpenDialogTextEditorMessage with easy_npc:open_dialog_text_editor (40)
+[10Mar2025 19:56:02.263] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message RemoveDialogButtonMessage with easy_npc:remove_dialog_button (41)
+[10Mar2025 19:56:02.264] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message RemoveDialogMessage with easy_npc:remove_dialog (42)
+[10Mar2025 19:56:02.265] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message RemoveNPCMessage with easy_npc:remove_npc (43)
+[10Mar2025 19:56:02.266] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message RemoveObjectiveMessage with easy_npc:remove_objective (44)
+[10Mar2025 19:56:02.267] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message RequestDataSyncMessage with easy_npc:request_data_sync (45)
+[10Mar2025 19:56:02.269] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message RespawnNPCMessage with easy_npc:respawn_npc (46)
+[10Mar2025 19:56:02.270] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message SaveDialogButtonMessage with easy_npc:save_dialog_button (47)
+[10Mar2025 19:56:02.271] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message SaveDialogMessage with easy_npc:save_dialog (48)
+[10Mar2025 19:56:02.272] [main/INFO] [Easy NPC/]: [NetworkHandler] Registering server network message SaveDialogSetMessage with easy_npc:save_dialog_set (49)
+[10Mar2025 19:56:02.299] [main/INFO] [Moonlight/]: Initialized color sets in 23ms
+[10Mar2025 19:56:02.327] [main/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 2 listeners
+[10Mar2025 19:56:02.379] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.0 Target: null
+[10Mar2025 19:56:02.380] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
+[10Mar2025 19:56:02.386] [modloading-worker-0/INFO] [zeta-internal/]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 1 listener
+[10Mar2025 19:56:02.388] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: OUTDATED Current: 8.0.1 Target: 8.0.2
+[10Mar2025 19:56:02.389] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[10Mar2025 19:56:02.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[10Mar2025 19:56:02.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[10Mar2025 19:56:02.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA_OUTDATED Current: 12.0.0.3 Target: 12.0.0.4
+[10Mar2025 19:56:02.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[10Mar2025 19:56:02.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
+[10Mar2025 19:56:02.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[10Mar2025 19:56:03.012] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 1-v2.1.4 Target: 3.0.3.f+mod
+[10Mar2025 19:56:03.012] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[10Mar2025 19:56:03.017] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.13 Target: 8.1.29
+[10Mar2025 19:56:03.019] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[10Mar2025 19:56:03.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[10Mar2025 19:56:03.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Mar2025 19:56:03.202] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[10Mar2025 19:56:04.177] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Mar2025 19:56:04.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:stove Expected: 1003 Got: 1776
+[10Mar2025 19:56:04.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:cooking_pot Expected: 1004 Got: 1777
+[10Mar2025 19:56:04.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:skillet Expected: 1005 Got: 1778
+[10Mar2025 19:56:04.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:basket Expected: 1006 Got: 1779
+[10Mar2025 19:56:04.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:cutting_board Expected: 1007 Got: 1780
+[10Mar2025 19:56:04.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:carrot_crate Expected: 1008 Got: 1781
+[10Mar2025 19:56:04.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:potato_crate Expected: 1009 Got: 1782
+[10Mar2025 19:56:04.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:beetroot_crate Expected: 1010 Got: 1783
+[10Mar2025 19:56:04.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:cabbage_crate Expected: 1011 Got: 1784
+[10Mar2025 19:56:04.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:tomato_crate Expected: 1012 Got: 1785
+[10Mar2025 19:56:04.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:onion_crate Expected: 1013 Got: 1786
+[10Mar2025 19:56:04.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:rice_bale Expected: 1014 Got: 1787
+[10Mar2025 19:56:04.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:rice_bag Expected: 1015 Got: 1788
+[10Mar2025 19:56:04.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:straw_bale Expected: 1016 Got: 1789
+[10Mar2025 19:56:04.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:rope Expected: 1017 Got: 1790
+[10Mar2025 19:56:04.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:safety_net Expected: 1018 Got: 1791
+[10Mar2025 19:56:04.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:oak_cabinet Expected: 1019 Got: 1792
+[10Mar2025 19:56:04.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:spruce_cabinet Expected: 1020 Got: 1793
+[10Mar2025 19:56:04.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:birch_cabinet Expected: 1021 Got: 1794
+[10Mar2025 19:56:04.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:jungle_cabinet Expected: 1022 Got: 1795
+[10Mar2025 19:56:04.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:acacia_cabinet Expected: 1023 Got: 1796
+[10Mar2025 19:56:04.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:dark_oak_cabinet Expected: 1024 Got: 1797
+[10Mar2025 19:56:04.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:mangrove_cabinet Expected: 1025 Got: 1798
+[10Mar2025 19:56:04.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:cherry_cabinet Expected: 1026 Got: 1799
+[10Mar2025 19:56:04.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:bamboo_cabinet Expected: 1027 Got: 1800
+[10Mar2025 19:56:04.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:crimson_cabinet Expected: 1028 Got: 1801
+[10Mar2025 19:56:04.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:warped_cabinet Expected: 1029 Got: 1802
+[10Mar2025 19:56:04.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:canvas_rug Expected: 1030 Got: 1803
+[10Mar2025 19:56:04.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:tatami Expected: 1031 Got: 1804
+[10Mar2025 19:56:04.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:full_tatami_mat Expected: 1032 Got: 1805
+[10Mar2025 19:56:04.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:half_tatami_mat Expected: 1033 Got: 1806
+[10Mar2025 19:56:04.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:canvas_sign Expected: 1034 Got: 1807
+[10Mar2025 19:56:04.345] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:white_canvas_sign Expected: 1035 Got: 1808
+[10Mar2025 19:56:04.345] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:orange_canvas_sign Expected: 1036 Got: 1809
+[10Mar2025 19:56:04.345] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:magenta_canvas_sign Expected: 1037 Got: 1810
+[10Mar2025 19:56:04.345] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:light_blue_canvas_sign Expected: 1038 Got: 1811
+[10Mar2025 19:56:04.345] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:yellow_canvas_sign Expected: 1039 Got: 1812
+[10Mar2025 19:56:04.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:lime_canvas_sign Expected: 1040 Got: 1813
+[10Mar2025 19:56:04.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:pink_canvas_sign Expected: 1041 Got: 1814
+[10Mar2025 19:56:04.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:gray_canvas_sign Expected: 1042 Got: 1815
+[10Mar2025 19:56:04.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:light_gray_canvas_sign Expected: 1043 Got: 1816
+[10Mar2025 19:56:04.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:cyan_canvas_sign Expected: 1044 Got: 1817
+[10Mar2025 19:56:04.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:purple_canvas_sign Expected: 1045 Got: 1818
+[10Mar2025 19:56:04.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:blue_canvas_sign Expected: 1046 Got: 1819
+[10Mar2025 19:56:04.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:brown_canvas_sign Expected: 1047 Got: 1820
+[10Mar2025 19:56:04.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:green_canvas_sign Expected: 1048 Got: 1821
+[10Mar2025 19:56:04.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:red_canvas_sign Expected: 1049 Got: 1822
+[10Mar2025 19:56:04.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:black_canvas_sign Expected: 1050 Got: 1823
+[10Mar2025 19:56:04.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:canvas_wall_sign Expected: 1051 Got: 1824
+[10Mar2025 19:56:04.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:white_canvas_wall_sign Expected: 1052 Got: 1825
+[10Mar2025 19:56:04.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:orange_canvas_wall_sign Expected: 1053 Got: 1826
+[10Mar2025 19:56:04.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:magenta_canvas_wall_sign Expected: 1054 Got: 1827
+[10Mar2025 19:56:04.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:light_blue_canvas_wall_sign Expected: 1055 Got: 1828
+[10Mar2025 19:56:04.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:yellow_canvas_wall_sign Expected: 1056 Got: 1829
+[10Mar2025 19:56:04.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:lime_canvas_wall_sign Expected: 1057 Got: 1830
+[10Mar2025 19:56:04.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:pink_canvas_wall_sign Expected: 1058 Got: 1831
+[10Mar2025 19:56:04.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:gray_canvas_wall_sign Expected: 1059 Got: 1832
+[10Mar2025 19:56:04.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:light_gray_canvas_wall_sign Expected: 1060 Got: 1833
+[10Mar2025 19:56:04.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:cyan_canvas_wall_sign Expected: 1061 Got: 1834
+[10Mar2025 19:56:04.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:purple_canvas_wall_sign Expected: 1062 Got: 1835
+[10Mar2025 19:56:04.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:blue_canvas_wall_sign Expected: 1063 Got: 1836
+[10Mar2025 19:56:04.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:brown_canvas_wall_sign Expected: 1064 Got: 1837
+[10Mar2025 19:56:04.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:green_canvas_wall_sign Expected: 1065 Got: 1838
+[10Mar2025 19:56:04.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:red_canvas_wall_sign Expected: 1066 Got: 1839
+[10Mar2025 19:56:04.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:black_canvas_wall_sign Expected: 1067 Got: 1840
+[10Mar2025 19:56:04.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:hanging_canvas_sign Expected: 1068 Got: 1841
+[10Mar2025 19:56:04.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:white_hanging_canvas_sign Expected: 1069 Got: 1842
+[10Mar2025 19:56:04.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:orange_hanging_canvas_sign Expected: 1070 Got: 1843
+[10Mar2025 19:56:04.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:magenta_hanging_canvas_sign Expected: 1071 Got: 1844
+[10Mar2025 19:56:04.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:light_blue_hanging_canvas_sign Expected: 1072 Got: 1845
+[10Mar2025 19:56:04.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:yellow_hanging_canvas_sign Expected: 1073 Got: 1846
+[10Mar2025 19:56:04.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:lime_hanging_canvas_sign Expected: 1074 Got: 1847
+[10Mar2025 19:56:04.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:pink_hanging_canvas_sign Expected: 1075 Got: 1848
+[10Mar2025 19:56:04.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:gray_hanging_canvas_sign Expected: 1076 Got: 1849
+[10Mar2025 19:56:04.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:light_gray_hanging_canvas_sign Expected: 1077 Got: 1850
+[10Mar2025 19:56:04.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:cyan_hanging_canvas_sign Expected: 1078 Got: 1851
+[10Mar2025 19:56:04.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:purple_hanging_canvas_sign Expected: 1079 Got: 1852
+[10Mar2025 19:56:04.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:blue_hanging_canvas_sign Expected: 1080 Got: 1853
+[10Mar2025 19:56:04.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:brown_hanging_canvas_sign Expected: 1081 Got: 1854
+[10Mar2025 19:56:04.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:green_hanging_canvas_sign Expected: 1082 Got: 1855
+[10Mar2025 19:56:04.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:red_hanging_canvas_sign Expected: 1083 Got: 1856
+[10Mar2025 19:56:04.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:black_hanging_canvas_sign Expected: 1084 Got: 1857
+[10Mar2025 19:56:04.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:wall_hanging_canvas_sign Expected: 1085 Got: 1858
+[10Mar2025 19:56:04.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:white_wall_hanging_canvas_sign Expected: 1086 Got: 1859
+[10Mar2025 19:56:04.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:orange_wall_hanging_canvas_sign Expected: 1087 Got: 1860
+[10Mar2025 19:56:04.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:magenta_wall_hanging_canvas_sign Expected: 1088 Got: 1861
+[10Mar2025 19:56:04.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:light_blue_wall_hanging_canvas_sign Expected: 1089 Got: 1862
+[10Mar2025 19:56:04.353] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:yellow_wall_hanging_canvas_sign Expected: 1090 Got: 1863
+[10Mar2025 19:56:04.353] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:lime_wall_hanging_canvas_sign Expected: 1091 Got: 1864
+[10Mar2025 19:56:04.353] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:pink_wall_hanging_canvas_sign Expected: 1092 Got: 1865
+[10Mar2025 19:56:04.353] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:gray_wall_hanging_canvas_sign Expected: 1093 Got: 1866
+[10Mar2025 19:56:04.353] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:light_gray_wall_hanging_canvas_sign Expected: 1094 Got: 1867
+[10Mar2025 19:56:04.353] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:cyan_wall_hanging_canvas_sign Expected: 1095 Got: 1868
+[10Mar2025 19:56:04.353] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:purple_wall_hanging_canvas_sign Expected: 1096 Got: 1869
+[10Mar2025 19:56:04.354] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:blue_wall_hanging_canvas_sign Expected: 1097 Got: 1870
+[10Mar2025 19:56:04.354] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:brown_wall_hanging_canvas_sign Expected: 1098 Got: 1871
+[10Mar2025 19:56:04.354] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:green_wall_hanging_canvas_sign Expected: 1099 Got: 1872
+[10Mar2025 19:56:04.354] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:red_wall_hanging_canvas_sign Expected: 1100 Got: 1873
+[10Mar2025 19:56:04.354] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:black_wall_hanging_canvas_sign Expected: 1101 Got: 1874
+[10Mar2025 19:56:04.354] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:brown_mushroom_colony Expected: 1102 Got: 1875
+[10Mar2025 19:56:04.354] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:red_mushroom_colony Expected: 1103 Got: 1876
+[10Mar2025 19:56:04.354] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:organic_compost Expected: 1104 Got: 1877
+[10Mar2025 19:56:04.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:rich_soil Expected: 1105 Got: 1878
+[10Mar2025 19:56:04.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:rich_soil_farmland Expected: 1106 Got: 1879
+[10Mar2025 19:56:04.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:apple_pie Expected: 1107 Got: 1880
+[10Mar2025 19:56:04.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:sweet_berry_cheesecake Expected: 1108 Got: 1881
+[10Mar2025 19:56:04.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:chocolate_pie Expected: 1109 Got: 1882
+[10Mar2025 19:56:04.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:sandy_shrub Expected: 1110 Got: 1883
+[10Mar2025 19:56:04.356] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:wild_cabbages Expected: 1111 Got: 1884
+[10Mar2025 19:56:04.356] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:wild_onions Expected: 1112 Got: 1885
+[10Mar2025 19:56:04.356] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:wild_tomatoes Expected: 1113 Got: 1886
+[10Mar2025 19:56:04.356] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:wild_carrots Expected: 1114 Got: 1887
+[10Mar2025 19:56:04.356] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:wild_potatoes Expected: 1115 Got: 1888
+[10Mar2025 19:56:04.356] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:wild_beetroots Expected: 1116 Got: 1889
+[10Mar2025 19:56:04.356] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:wild_rice Expected: 1117 Got: 1890
+[10Mar2025 19:56:04.357] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:cabbages Expected: 1118 Got: 1891
+[10Mar2025 19:56:04.357] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:onions Expected: 1119 Got: 1892
+[10Mar2025 19:56:04.357] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:budding_tomatoes Expected: 1120 Got: 1893
+[10Mar2025 19:56:04.357] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:tomatoes Expected: 1121 Got: 1894
+[10Mar2025 19:56:04.357] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:rice Expected: 1122 Got: 1895
+[10Mar2025 19:56:04.357] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:rice_panicles Expected: 1123 Got: 1896
+[10Mar2025 19:56:04.357] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:roast_chicken_block Expected: 1124 Got: 1897
+[10Mar2025 19:56:04.357] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:stuffed_pumpkin_block Expected: 1125 Got: 1898
+[10Mar2025 19:56:04.358] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:honey_glazed_ham_block Expected: 1126 Got: 1899
+[10Mar2025 19:56:04.358] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:shepherds_pie_block Expected: 1127 Got: 1900
+[10Mar2025 19:56:04.358] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: farmersdelight:rice_roll_medley_block Expected: 1128 Got: 1901
+[10Mar2025 19:56:04.358] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: endrem:ancient_portal_frame Expected: 1130 Got: 1902
+[10Mar2025 19:56:04.358] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: enderitemod:enderite_block Expected: 1898 Got: 1903
+[10Mar2025 19:56:04.358] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: enderitemod:enderite_ore Expected: 1899 Got: 1904
+[10Mar2025 19:56:04.358] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: enderitemod:cracked_enderite_ore Expected: 1900 Got: 1905
+[10Mar2025 19:56:04.359] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: enderitemod:enderite_respawn_anchor Expected: 1901 Got: 1906
+[10Mar2025 19:56:04.359] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: enderitemod:enderite_shulker_box Expected: 1902 Got: 1907
+[10Mar2025 19:56:04.361] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:stove Expected: 1255 Got: 2257
+[10Mar2025 19:56:04.361] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cooking_pot Expected: 1256 Got: 2258
+[10Mar2025 19:56:04.361] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:skillet Expected: 1257 Got: 2259
+[10Mar2025 19:56:04.361] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cutting_board Expected: 1258 Got: 2260
+[10Mar2025 19:56:04.361] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:basket Expected: 1259 Got: 2261
+[10Mar2025 19:56:04.361] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:carrot_crate Expected: 1260 Got: 2262
+[10Mar2025 19:56:04.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:potato_crate Expected: 1261 Got: 2263
+[10Mar2025 19:56:04.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:beetroot_crate Expected: 1262 Got: 2264
+[10Mar2025 19:56:04.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cabbage_crate Expected: 1263 Got: 2265
+[10Mar2025 19:56:04.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:tomato_crate Expected: 1264 Got: 2266
+[10Mar2025 19:56:04.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:onion_crate Expected: 1265 Got: 2267
+[10Mar2025 19:56:04.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:rice_bale Expected: 1266 Got: 2268
+[10Mar2025 19:56:04.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:rice_bag Expected: 1267 Got: 2269
+[10Mar2025 19:56:04.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:straw_bale Expected: 1268 Got: 2270
+[10Mar2025 19:56:04.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:safety_net Expected: 1269 Got: 2271
+[10Mar2025 19:56:04.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:oak_cabinet Expected: 1270 Got: 2272
+[10Mar2025 19:56:04.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:spruce_cabinet Expected: 1271 Got: 2273
+[10Mar2025 19:56:04.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:birch_cabinet Expected: 1272 Got: 2274
+[10Mar2025 19:56:04.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:jungle_cabinet Expected: 1273 Got: 2275
+[10Mar2025 19:56:04.364] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:acacia_cabinet Expected: 1274 Got: 2276
+[10Mar2025 19:56:04.364] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:dark_oak_cabinet Expected: 1275 Got: 2277
+[10Mar2025 19:56:04.364] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:mangrove_cabinet Expected: 1276 Got: 2278
+[10Mar2025 19:56:04.364] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cherry_cabinet Expected: 1277 Got: 2279
+[10Mar2025 19:56:04.364] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:bamboo_cabinet Expected: 1278 Got: 2280
+[10Mar2025 19:56:04.364] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:crimson_cabinet Expected: 1279 Got: 2281
+[10Mar2025 19:56:04.364] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:warped_cabinet Expected: 1280 Got: 2282
+[10Mar2025 19:56:04.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:tatami Expected: 1281 Got: 2283
+[10Mar2025 19:56:04.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:full_tatami_mat Expected: 1282 Got: 2284
+[10Mar2025 19:56:04.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:half_tatami_mat Expected: 1283 Got: 2285
+[10Mar2025 19:56:04.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:canvas_rug Expected: 1284 Got: 2286
+[10Mar2025 19:56:04.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:organic_compost Expected: 1285 Got: 2287
+[10Mar2025 19:56:04.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:rich_soil Expected: 1286 Got: 2288
+[10Mar2025 19:56:04.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:rich_soil_farmland Expected: 1287 Got: 2289
+[10Mar2025 19:56:04.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:rope Expected: 1288 Got: 2290
+[10Mar2025 19:56:04.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:canvas_sign Expected: 1289 Got: 2291
+[10Mar2025 19:56:04.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:hanging_canvas_sign Expected: 1290 Got: 2292
+[10Mar2025 19:56:04.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:white_canvas_sign Expected: 1291 Got: 2293
+[10Mar2025 19:56:04.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:white_hanging_canvas_sign Expected: 1292 Got: 2294
+[10Mar2025 19:56:04.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:light_gray_canvas_sign Expected: 1293 Got: 2295
+[10Mar2025 19:56:04.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:light_gray_hanging_canvas_sign Expected: 1294 Got: 2296
+[10Mar2025 19:56:04.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:gray_canvas_sign Expected: 1295 Got: 2297
+[10Mar2025 19:56:04.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:gray_hanging_canvas_sign Expected: 1296 Got: 2298
+[10Mar2025 19:56:04.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:black_canvas_sign Expected: 1297 Got: 2299
+[10Mar2025 19:56:04.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:black_hanging_canvas_sign Expected: 1298 Got: 2300
+[10Mar2025 19:56:04.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:brown_canvas_sign Expected: 1299 Got: 2301
+[10Mar2025 19:56:04.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:brown_hanging_canvas_sign Expected: 1300 Got: 2302
+[10Mar2025 19:56:04.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:red_canvas_sign Expected: 1301 Got: 2303
+[10Mar2025 19:56:04.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:red_hanging_canvas_sign Expected: 1302 Got: 2304
+[10Mar2025 19:56:04.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:orange_canvas_sign Expected: 1303 Got: 2305
+[10Mar2025 19:56:04.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:orange_hanging_canvas_sign Expected: 1304 Got: 2306
+[10Mar2025 19:56:04.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:yellow_canvas_sign Expected: 1305 Got: 2307
+[10Mar2025 19:56:04.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:yellow_hanging_canvas_sign Expected: 1306 Got: 2308
+[10Mar2025 19:56:04.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:lime_canvas_sign Expected: 1307 Got: 2309
+[10Mar2025 19:56:04.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:lime_hanging_canvas_sign Expected: 1308 Got: 2310
+[10Mar2025 19:56:04.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:green_canvas_sign Expected: 1309 Got: 2311
+[10Mar2025 19:56:04.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:green_hanging_canvas_sign Expected: 1310 Got: 2312
+[10Mar2025 19:56:04.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cyan_canvas_sign Expected: 1311 Got: 2313
+[10Mar2025 19:56:04.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cyan_hanging_canvas_sign Expected: 1312 Got: 2314
+[10Mar2025 19:56:04.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:light_blue_canvas_sign Expected: 1313 Got: 2315
+[10Mar2025 19:56:04.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:light_blue_hanging_canvas_sign Expected: 1314 Got: 2316
+[10Mar2025 19:56:04.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:blue_canvas_sign Expected: 1315 Got: 2317
+[10Mar2025 19:56:04.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:blue_hanging_canvas_sign Expected: 1316 Got: 2318
+[10Mar2025 19:56:04.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:purple_canvas_sign Expected: 1317 Got: 2319
+[10Mar2025 19:56:04.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:purple_hanging_canvas_sign Expected: 1318 Got: 2320
+[10Mar2025 19:56:04.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:magenta_canvas_sign Expected: 1319 Got: 2321
+[10Mar2025 19:56:04.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:magenta_hanging_canvas_sign Expected: 1320 Got: 2322
+[10Mar2025 19:56:04.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:pink_canvas_sign Expected: 1321 Got: 2323
+[10Mar2025 19:56:04.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:pink_hanging_canvas_sign Expected: 1322 Got: 2324
+[10Mar2025 19:56:04.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:flint_knife Expected: 1323 Got: 2325
+[10Mar2025 19:56:04.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:iron_knife Expected: 1324 Got: 2326
+[10Mar2025 19:56:04.371] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:diamond_knife Expected: 1325 Got: 2327
+[10Mar2025 19:56:04.371] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:netherite_knife Expected: 1326 Got: 2328
+[10Mar2025 19:56:04.371] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:golden_knife Expected: 1327 Got: 2329
+[10Mar2025 19:56:04.371] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:straw Expected: 1328 Got: 2330
+[10Mar2025 19:56:04.371] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:canvas Expected: 1329 Got: 2331
+[10Mar2025 19:56:04.371] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:tree_bark Expected: 1330 Got: 2332
+[10Mar2025 19:56:04.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:sandy_shrub Expected: 1331 Got: 2333
+[10Mar2025 19:56:04.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:wild_cabbages Expected: 1332 Got: 2334
+[10Mar2025 19:56:04.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:wild_onions Expected: 1333 Got: 2335
+[10Mar2025 19:56:04.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:wild_tomatoes Expected: 1334 Got: 2336
+[10Mar2025 19:56:04.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:wild_carrots Expected: 1335 Got: 2337
+[10Mar2025 19:56:04.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:wild_potatoes Expected: 1336 Got: 2338
+[10Mar2025 19:56:04.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:wild_beetroots Expected: 1337 Got: 2339
+[10Mar2025 19:56:04.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:wild_rice Expected: 1338 Got: 2340
+[10Mar2025 19:56:04.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:brown_mushroom_colony Expected: 1339 Got: 2341
+[10Mar2025 19:56:04.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:red_mushroom_colony Expected: 1340 Got: 2342
+[10Mar2025 19:56:04.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cabbage Expected: 1341 Got: 2343
+[10Mar2025 19:56:04.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:tomato Expected: 1342 Got: 2344
+[10Mar2025 19:56:04.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:onion Expected: 1343 Got: 2345
+[10Mar2025 19:56:04.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:rice_panicle Expected: 1344 Got: 2346
+[10Mar2025 19:56:04.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:rice Expected: 1345 Got: 2347
+[10Mar2025 19:56:04.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cabbage_seeds Expected: 1346 Got: 2348
+[10Mar2025 19:56:04.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:tomato_seeds Expected: 1347 Got: 2349
+[10Mar2025 19:56:04.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:rotten_tomato Expected: 1348 Got: 2350
+[10Mar2025 19:56:04.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:fried_egg Expected: 1349 Got: 2351
+[10Mar2025 19:56:04.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:milk_bottle Expected: 1350 Got: 2352
+[10Mar2025 19:56:04.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:hot_cocoa Expected: 1351 Got: 2353
+[10Mar2025 19:56:04.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:apple_cider Expected: 1352 Got: 2354
+[10Mar2025 19:56:04.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:melon_juice Expected: 1353 Got: 2355
+[10Mar2025 19:56:04.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:tomato_sauce Expected: 1354 Got: 2356
+[10Mar2025 19:56:04.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:wheat_dough Expected: 1355 Got: 2357
+[10Mar2025 19:56:04.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:raw_pasta Expected: 1356 Got: 2358
+[10Mar2025 19:56:04.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:pumpkin_slice Expected: 1357 Got: 2359
+[10Mar2025 19:56:04.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cabbage_leaf Expected: 1358 Got: 2360
+[10Mar2025 19:56:04.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:minced_beef Expected: 1359 Got: 2361
+[10Mar2025 19:56:04.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:beef_patty Expected: 1360 Got: 2362
+[10Mar2025 19:56:04.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:chicken_cuts Expected: 1361 Got: 2363
+[10Mar2025 19:56:04.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cooked_chicken_cuts Expected: 1362 Got: 2364
+[10Mar2025 19:56:04.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:bacon Expected: 1363 Got: 2365
+[10Mar2025 19:56:04.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cooked_bacon Expected: 1364 Got: 2366
+[10Mar2025 19:56:04.377] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cod_slice Expected: 1365 Got: 2367
+[10Mar2025 19:56:04.377] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cooked_cod_slice Expected: 1366 Got: 2368
+[10Mar2025 19:56:04.377] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:salmon_slice Expected: 1367 Got: 2369
+[10Mar2025 19:56:04.377] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cooked_salmon_slice Expected: 1368 Got: 2370
+[10Mar2025 19:56:04.377] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:mutton_chops Expected: 1369 Got: 2371
+[10Mar2025 19:56:04.377] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cooked_mutton_chops Expected: 1370 Got: 2372
+[10Mar2025 19:56:04.378] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:ham Expected: 1371 Got: 2373
+[10Mar2025 19:56:04.378] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:smoked_ham Expected: 1372 Got: 2374
+[10Mar2025 19:56:04.378] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:pie_crust Expected: 1373 Got: 2375
+[10Mar2025 19:56:04.378] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:apple_pie Expected: 1374 Got: 2376
+[10Mar2025 19:56:04.378] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:sweet_berry_cheesecake Expected: 1375 Got: 2377
+[10Mar2025 19:56:04.378] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:chocolate_pie Expected: 1376 Got: 2378
+[10Mar2025 19:56:04.378] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cake_slice Expected: 1377 Got: 2379
+[10Mar2025 19:56:04.379] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:apple_pie_slice Expected: 1378 Got: 2380
+[10Mar2025 19:56:04.379] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:sweet_berry_cheesecake_slice Expected: 1379 Got: 2381
+[10Mar2025 19:56:04.379] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:chocolate_pie_slice Expected: 1380 Got: 2382
+[10Mar2025 19:56:04.379] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:sweet_berry_cookie Expected: 1381 Got: 2383
+[10Mar2025 19:56:04.379] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:honey_cookie Expected: 1382 Got: 2384
+[10Mar2025 19:56:04.379] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:melon_popsicle Expected: 1383 Got: 2385
+[10Mar2025 19:56:04.379] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:glow_berry_custard Expected: 1384 Got: 2386
+[10Mar2025 19:56:04.380] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:fruit_salad Expected: 1385 Got: 2387
+[10Mar2025 19:56:04.380] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:mixed_salad Expected: 1386 Got: 2388
+[10Mar2025 19:56:04.380] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:nether_salad Expected: 1387 Got: 2389
+[10Mar2025 19:56:04.380] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:barbecue_stick Expected: 1388 Got: 2390
+[10Mar2025 19:56:04.380] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:egg_sandwich Expected: 1389 Got: 2391
+[10Mar2025 19:56:04.380] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:chicken_sandwich Expected: 1390 Got: 2392
+[10Mar2025 19:56:04.380] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:hamburger Expected: 1391 Got: 2393
+[10Mar2025 19:56:04.381] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:bacon_sandwich Expected: 1392 Got: 2394
+[10Mar2025 19:56:04.381] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:mutton_wrap Expected: 1393 Got: 2395
+[10Mar2025 19:56:04.381] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:dumplings Expected: 1394 Got: 2396
+[10Mar2025 19:56:04.381] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:stuffed_potato Expected: 1395 Got: 2397
+[10Mar2025 19:56:04.381] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cabbage_rolls Expected: 1396 Got: 2398
+[10Mar2025 19:56:04.381] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:salmon_roll Expected: 1397 Got: 2399
+[10Mar2025 19:56:04.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cod_roll Expected: 1398 Got: 2400
+[10Mar2025 19:56:04.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:kelp_roll Expected: 1399 Got: 2401
+[10Mar2025 19:56:04.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:kelp_roll_slice Expected: 1400 Got: 2402
+[10Mar2025 19:56:04.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:cooked_rice Expected: 1401 Got: 2403
+[10Mar2025 19:56:04.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:bone_broth Expected: 1402 Got: 2404
+[10Mar2025 19:56:04.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:beef_stew Expected: 1403 Got: 2405
+[10Mar2025 19:56:04.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:chicken_soup Expected: 1404 Got: 2406
+[10Mar2025 19:56:04.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:vegetable_soup Expected: 1405 Got: 2407
+[10Mar2025 19:56:04.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:fish_stew Expected: 1406 Got: 2408
+[10Mar2025 19:56:04.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:fried_rice Expected: 1407 Got: 2409
+[10Mar2025 19:56:04.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:pumpkin_soup Expected: 1408 Got: 2410
+[10Mar2025 19:56:04.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:baked_cod_stew Expected: 1409 Got: 2411
+[10Mar2025 19:56:04.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:noodle_soup Expected: 1410 Got: 2412
+[10Mar2025 19:56:04.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:bacon_and_eggs Expected: 1411 Got: 2413
+[10Mar2025 19:56:04.384] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:pasta_with_meatballs Expected: 1412 Got: 2414
+[10Mar2025 19:56:04.384] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:pasta_with_mutton_chop Expected: 1413 Got: 2415
+[10Mar2025 19:56:04.384] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:mushroom_rice Expected: 1414 Got: 2416
+[10Mar2025 19:56:04.384] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:roasted_mutton_chops Expected: 1415 Got: 2417
+[10Mar2025 19:56:04.384] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:vegetable_noodles Expected: 1416 Got: 2418
+[10Mar2025 19:56:04.384] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:steak_and_potatoes Expected: 1417 Got: 2419
+[10Mar2025 19:56:04.384] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:ratatouille Expected: 1418 Got: 2420
+[10Mar2025 19:56:04.384] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:squid_ink_pasta Expected: 1419 Got: 2421
+[10Mar2025 19:56:04.385] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:grilled_salmon Expected: 1420 Got: 2422
+[10Mar2025 19:56:04.385] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:roast_chicken_block Expected: 1421 Got: 2423
+[10Mar2025 19:56:04.385] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:roast_chicken Expected: 1422 Got: 2424
+[10Mar2025 19:56:04.385] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:stuffed_pumpkin_block Expected: 1423 Got: 2425
+[10Mar2025 19:56:04.385] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:stuffed_pumpkin Expected: 1424 Got: 2426
+[10Mar2025 19:56:04.385] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:honey_glazed_ham_block Expected: 1425 Got: 2427
+[10Mar2025 19:56:04.385] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:honey_glazed_ham Expected: 1426 Got: 2428
+[10Mar2025 19:56:04.386] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:shepherds_pie_block Expected: 1427 Got: 2429
+[10Mar2025 19:56:04.386] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:shepherds_pie Expected: 1428 Got: 2430
+[10Mar2025 19:56:04.386] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:rice_roll_medley_block Expected: 1429 Got: 2431
+[10Mar2025 19:56:04.386] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:dog_food Expected: 1430 Got: 2432
+[10Mar2025 19:56:04.386] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: farmersdelight:horse_feed Expected: 1431 Got: 2433
+[10Mar2025 19:56:04.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:ancient_portal_frame Expected: 1468 Got: 2434
+[10Mar2025 19:56:04.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:black_eye Expected: 1469 Got: 2435
+[10Mar2025 19:56:04.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:cold_eye Expected: 1470 Got: 2436
+[10Mar2025 19:56:04.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:corrupted_eye Expected: 1471 Got: 2437
+[10Mar2025 19:56:04.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:lost_eye Expected: 1472 Got: 2438
+[10Mar2025 19:56:04.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:nether_eye Expected: 1473 Got: 2439
+[10Mar2025 19:56:04.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:old_eye Expected: 1474 Got: 2440
+[10Mar2025 19:56:04.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:rogue_eye Expected: 1475 Got: 2441
+[10Mar2025 19:56:04.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:cursed_eye Expected: 1476 Got: 2442
+[10Mar2025 19:56:04.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:evil_eye Expected: 1477 Got: 2443
+[10Mar2025 19:56:04.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:guardian_eye Expected: 1478 Got: 2444
+[10Mar2025 19:56:04.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:magical_eye Expected: 1479 Got: 2445
+[10Mar2025 19:56:04.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:wither_eye Expected: 1480 Got: 2446
+[10Mar2025 19:56:04.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:witch_eye Expected: 1481 Got: 2447
+[10Mar2025 19:56:04.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:undead_eye Expected: 1482 Got: 2448
+[10Mar2025 19:56:04.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:exotic_eye Expected: 1483 Got: 2449
+[10Mar2025 19:56:04.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:cryptic_eye Expected: 1484 Got: 2450
+[10Mar2025 19:56:04.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:witch_pupil Expected: 1485 Got: 2451
+[10Mar2025 19:56:04.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: endrem:undead_soul Expected: 1486 Got: 2452
+[10Mar2025 19:56:04.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: explorerscompass:explorerscompass Expected: 2330 Got: 2453
+[10Mar2025 19:56:04.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_ingot Expected: 2331 Got: 2454
+[10Mar2025 19:56:04.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_scrap Expected: 2332 Got: 2455
+[10Mar2025 19:56:04.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_pickaxe Expected: 2333 Got: 2456
+[10Mar2025 19:56:04.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_axe Expected: 2334 Got: 2457
+[10Mar2025 19:56:04.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_hoe Expected: 2335 Got: 2458
+[10Mar2025 19:56:04.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_shovel Expected: 2336 Got: 2459
+[10Mar2025 19:56:04.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_sword Expected: 2337 Got: 2460
+[10Mar2025 19:56:04.391] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_block Expected: 2338 Got: 2461
+[10Mar2025 19:56:04.391] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_ore Expected: 2339 Got: 2462
+[10Mar2025 19:56:04.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:cracked_enderite_ore Expected: 2340 Got: 2463
+[10Mar2025 19:56:04.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_respawn_anchor Expected: 2341 Got: 2464
+[10Mar2025 19:56:04.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_helmet Expected: 2342 Got: 2465
+[10Mar2025 19:56:04.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_chestplate Expected: 2343 Got: 2466
+[10Mar2025 19:56:04.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_leggings Expected: 2344 Got: 2467
+[10Mar2025 19:56:04.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_boots Expected: 2345 Got: 2468
+[10Mar2025 19:56:04.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_shulker_box Expected: 2346 Got: 2469
+[10Mar2025 19:56:04.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_crossbow Expected: 2347 Got: 2470
+[10Mar2025 19:56:04.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_bow Expected: 2348 Got: 2471
+[10Mar2025 19:56:04.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_shield Expected: 2349 Got: 2472
+[10Mar2025 19:56:04.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_shears Expected: 2350 Got: 2473
+[10Mar2025 19:56:04.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_upgrade_smithing_template Expected: 2351 Got: 2474
+[10Mar2025 19:56:04.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_elytra Expected: 2352 Got: 2475
+[10Mar2025 19:56:04.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enderitemod:enderite_elytra_seperated Expected: 2353 Got: 2476
+[10Mar2025 19:56:04.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: farmersdelight:nourishment Expected: 0 Got: 34
+[10Mar2025 19:56:04.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: farmersdelight:comfort Expected: 34 Got: 35
+[10Mar2025 19:56:04.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:block.stove.crackle Expected: 1474 Got: 1529
+[10Mar2025 19:56:04.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:block.cooking_pot.boil Expected: 1475 Got: 1530
+[10Mar2025 19:56:04.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:block.cooking_pot.boil_soup Expected: 1476 Got: 1531
+[10Mar2025 19:56:04.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:block.cutting_board.knife Expected: 1477 Got: 1532
+[10Mar2025 19:56:04.396] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:block.cabinet.open Expected: 1478 Got: 1533
+[10Mar2025 19:56:04.396] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:block.cabinet.close Expected: 1479 Got: 1534
+[10Mar2025 19:56:04.396] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:block.skillet.sizzle Expected: 1480 Got: 1535
+[10Mar2025 19:56:04.396] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:block.skillet.add_food Expected: 1481 Got: 1536
+[10Mar2025 19:56:04.396] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:item.skillet.attack.strong Expected: 1482 Got: 1537
+[10Mar2025 19:56:04.396] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:item.skillet.attack.weak Expected: 1483 Got: 1538
+[10Mar2025 19:56:04.397] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:block.tomato_bush.pick_tomatoes Expected: 1484 Got: 1539
+[10Mar2025 19:56:04.397] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:entity.rotten_tomato.throw Expected: 1485 Got: 1540
+[10Mar2025 19:56:04.397] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: farmersdelight:entity.rotten_tomato.hit Expected: 1486 Got: 1541
+[10Mar2025 19:56:04.397] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: farmersdelight:rotten_tomato Expected: 124 Got: 220
+[10Mar2025 19:56:05.391] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/prueba1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[10Mar2025 19:56:05.391] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/prueba1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[10Mar2025 19:56:06.742] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC /easy_npc commands for Easy NPC ...
+[10Mar2025 19:56:06.834] [main/INFO] [zeta-internal/]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[10Mar2025 19:56:08.126] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[10Mar2025 19:56:08.248] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2490 advancements
+[10Mar2025 19:56:08.253] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[10Mar2025 19:56:08.263] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[10Mar2025 19:56:08.269] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[10Mar2025 19:56:08.278] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[10Mar2025 19:56:08.981] [main/INFO] [zeta-internal/]: Dispatching ZTagsUpdated to 1 listener
+[10Mar2025 19:56:09.065] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[10Mar2025 19:56:09.065] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[10Mar2025 19:56:09.065] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[10Mar2025 19:56:09.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Mar2025 19:56:09.151] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[10Mar2025 19:56:09.175] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[10Mar2025 19:56:09.311] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
+[10Mar2025 19:56:09.313] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[10Mar2025 19:56:09.314] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[10Mar2025 19:56:09.315] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[10Mar2025 19:56:09.316] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[10Mar2025 19:56:09.317] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[10Mar2025 19:56:09.577] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[10Mar2025 19:56:09.955] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[10Mar2025 19:56:13.967] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[10Mar2025 19:56:13.989] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[10Mar2025 19:56:13.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Mar2025 19:56:18.912] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.504] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.540] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.570] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.593] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.595] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.596] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.598] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.600] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.601] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2025 19:56:19.995] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[10Mar2025 19:56:20.494] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
+[10Mar2025 19:56:20.786] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6793 ms
+[10Mar2025 19:56:20.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.483s)! For help, type "help"
+[10Mar2025 19:56:20.822] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: CustomNPC PermissionNode<Boolean>s available:
+[10Mar2025 19:56:20.823] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.blocks
+[10Mar2025 19:56:20.823] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.villager
+[10Mar2025 19:56:20.824] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.bank
+[10Mar2025 19:56:20.824] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.dialog
+[10Mar2025 19:56:20.824] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.faction
+[10Mar2025 19:56:20.825] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.linked
+[10Mar2025 19:56:20.825] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.naturalspawn
+[10Mar2025 19:56:20.826] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.playerdata
+[10Mar2025 19:56:20.826] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.quest
+[10Mar2025 19:56:20.827] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.recipe
+[10Mar2025 19:56:20.827] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.transport
+[10Mar2025 19:56:20.828] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.advanced
+[10Mar2025 19:56:20.828] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.ai
+[10Mar2025 19:56:20.828] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.clone
+[10Mar2025 19:56:20.829] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.create
+[10Mar2025 19:56:20.829] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.delete
+[10Mar2025 19:56:20.830] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.display
+[10Mar2025 19:56:20.830] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.freeze
+[10Mar2025 19:56:20.830] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.gui
+[10Mar2025 19:56:20.831] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.inventory
+[10Mar2025 19:56:20.831] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.reset
+[10Mar2025 19:56:20.831] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.stats
+[10Mar2025 19:56:20.832] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.scenes
+[10Mar2025 19:56:20.832] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.soulstone.all
+[10Mar2025 19:56:20.833] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.create
+[10Mar2025 19:56:20.833] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.mob
+[10Mar2025 19:56:20.834] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.mounter
+[10Mar2025 19:56:20.834] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.nbtbook
+[10Mar2025 19:56:20.834] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.pather
+[10Mar2025 19:56:20.835] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.scripter
+[10Mar2025 19:56:20.835] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10Mar2025 19:56:20.837] [Server thread/INFO] [Easy NPC/]: 🗣 Register Easy NPC Server is starting Events ...
+[10Mar2025 19:56:20.837] [Server thread/INFO] [Easy NPC/]: 🗣 Register Easy NPC Server data folders ...
+[10Mar2025 19:56:20.838] [Server thread/INFO] [Easy NPC/]: 🗣 Register Easy NPC Pose data folders ...
+[10Mar2025 19:56:20.840] [Server thread/INFO] [Easy NPC/]: 🗣 Register Easy NPC custom pose data ...
+[10Mar2025 19:56:20.848] [Server thread/WARN] [Easy NPC/]: Skin model pose file /workspaces/prueba1/servidor_minecraft/config/easy_npc/pose/humanoid_slim/humanoid_slim_poses.json already exists, skipping copy!
+[10Mar2025 19:56:20.856] [Server thread/INFO] [Easy NPC/]: 🗣 Register Easy NPC custom poses from /workspaces/prueba1/servidor_minecraft/config/easy_npc/pose ...
+[10Mar2025 19:56:20.857] [Server thread/INFO] [Easy NPC/]: Found custom pose file /workspaces/prueba1/servidor_minecraft/config/easy_npc/pose/humanoid_slim/humanoid_slim_poses.json ...
+[10Mar2025 19:56:20.862] [Server thread/INFO] [Easy NPC/]: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/crouching with Animation{name='Crouching', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -4.2, 0.0], rotation=[-7.5, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -3.2, 0.0], rotation=[20.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, -3.2, 1.0], rotation=[40.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -3.2, 1.0], rotation=[40.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, 0.0, 4.0], rotation=[-25.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, 0.0, 3.0], rotation=[-10.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
+[10Mar2025 19:56:20.863] [Server thread/INFO] [Easy NPC/]: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/standing with Animation{name='Standing', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, 0.0, 0.0], rotation=[0.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
+[10Mar2025 19:56:20.863] [Server thread/INFO] [Easy NPC/]: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/sitting with Animation{name='Sitting', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -10.5, 0.0], rotation=[0.0, 0.0, -2.5], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -10.5, 0.0], rotation=null, scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, -10.5, 0.0], rotation=[-35.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -10.5, 0.0], rotation=[-35.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, -10.0, 0.0], rotation=[-90.0, 15.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, -10.0, 0.0], rotation=[-90.0, -10.5, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
+[10Mar2025 19:56:20.864] [Server thread/INFO] [Easy NPC/]: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/chilling with Animation{name='Chilling', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -12.5, 2.0], rotation=[-2.5, 0.0, 2.5], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -12.25, 3.0], rotation=[-20.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[0.0, -12.5, 2.0], rotation=[17.5, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -12.5, 2.0], rotation=[20.0, 0.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[0.0, -10.0, 0.0], rotation=[-90.0, 15.0, -5.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[0.0, -10.0, 0.75], rotation=[-90.0, -10.5, 5.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
+[10Mar2025 19:56:20.864] [Server thread/INFO] [Easy NPC/]: [Pose Manager] Registering pose data easy_npc:pose/humanoid_slim/rest with Animation{name='Rest', loop='hold_on_last_frame', animation_length=null, bones={Head=Bone{position=[0.0, -12.0, 0.0], rotation=[5.0, 0.0, 5.0], scale=null, keyframePosition=null, keyframeRotation=null}, Body=Bone{position=[0.0, -12.0, 0.0], rotation=[0.0, 0.0, 2.5], scale=null, keyframePosition=null, keyframeRotation=null}, RightArm=Bone{position=[-1.0, -11.0, 0.0], rotation=[-75.0, -30.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftArm=Bone{position=[0.0, -12.0, 0.0], rotation=[-52.5, -5.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, RightLeg=Bone{position=[-3.0, -2.0, -2.0], rotation=[-32.5, -20.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}, LeftLeg=Bone{position=[6.75, -10.0, 0.0], rotation=[-90.0, 40.0, 0.0], scale=null, keyframePosition=null, keyframeRotation=null}}}
+[10Mar2025 19:56:20.866] [Server thread/INFO] [Easy NPC/]: 🗣 Register Easy NPC Backup data folders ...
+[10Mar2025 19:59:11.867] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player elpekkadloriano is 6e093743-6b76-4799-9972-4e8acf2144f1
+[10Mar2025 19:59:13.826] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elpekkadloriano[/127.12.134.234:58421] logged in with entity id 143 at (-1.4942543160309831, 142.0, -3.194806636463252)
+[10Mar2025 19:59:13.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpekkadloriano joined the game
